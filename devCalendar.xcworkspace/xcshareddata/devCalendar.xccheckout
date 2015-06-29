@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6126C627-BC4E-496A-9760-40A535423021</string>
+	<key>IDESourceControlProjectName</key>
+	<string>devCalendar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>63B6AD2F4C24EACC806BB7472EBCC6F1F5188950</key>
+		<string>https://github.com/JonathanGrant/devCalendar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>devCalendar.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>63B6AD2F4C24EACC806BB7472EBCC6F1F5188950</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JonathanGrant/devCalendar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>63B6AD2F4C24EACC806BB7472EBCC6F1F5188950</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>63B6AD2F4C24EACC806BB7472EBCC6F1F5188950</string>
+			<key>IDESourceControlWCCName</key>
+			<string>devCalendar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

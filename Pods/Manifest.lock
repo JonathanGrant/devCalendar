@@ -1,10 +1,10 @@
 PODS:
-  - MBCalendarKit (3.0.4)
+  - JTCalendar (1.0.11)
 
 DEPENDENCIES:
-  - MBCalendarKit (~> 3.0.4)
+  - JTCalendar (~> 1.0.0)
 
 SPEC CHECKSUMS:
-  MBCalendarKit: 2a3a60f902162a03bb4957966a4b795af998211f
+  JTCalendar: ca96ea52237c0371a86f4884b885e02682d6fed4
 
 COCOAPODS: 0.37.2

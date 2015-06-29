@@ -6,9 +6,9 @@
 // project.
 
 
-// MBCalendarKit
-#define COCOAPODS_POD_AVAILABLE_MBCalendarKit
-#define COCOAPODS_VERSION_MAJOR_MBCalendarKit 3
-#define COCOAPODS_VERSION_MINOR_MBCalendarKit 0
-#define COCOAPODS_VERSION_PATCH_MBCalendarKit 4
+// JTCalendar
+#define COCOAPODS_POD_AVAILABLE_JTCalendar
+#define COCOAPODS_VERSION_MAJOR_JTCalendar 1
+#define COCOAPODS_VERSION_MINOR_JTCalendar 0
+#define COCOAPODS_VERSION_PATCH_JTCalendar 11
 

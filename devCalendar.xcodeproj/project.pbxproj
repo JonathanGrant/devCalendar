@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D495AECA0177A89CC2750CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00463C362CE1DEA94A06BCA5 /* libPods.a */; };
 		38630C8B1B41C462002BDB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38630C8A1B41C462002BDB52 /* AppDelegate.swift */; };
 		38630C8D1B41C462002BDB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38630C8C1B41C462002BDB52 /* ViewController.swift */; };
 		38630C901B41C462002BDB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38630C8E1B41C462002BDB52 /* Main.storyboard */; };
 		38630C921B41C462002BDB52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38630C911B41C462002BDB52 /* Images.xcassets */; };
 		38630C951B41C462002BDB52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38630C931B41C462002BDB52 /* LaunchScreen.xib */; };
 		38630CA11B41C463002BDB52 /* devCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38630CA01B41C463002BDB52 /* devCalendarTests.swift */; };
+		6615C35B3A6DAF548D209985 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D027E5D1C7FFA02FB6DDE850 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00463C362CE1DEA94A06BCA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		38630C851B41C462002BDB52 /* devCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38630C891B41C462002BDB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38630C8A1B41C462002BDB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +38,7 @@
 		38630C9F1B41C463002BDB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38630CA01B41C463002BDB52 /* devCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devCalendarTests.swift; sourceTree = "<group>"; };
 		38903F2A1B41D42200D303CD /* devCalendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "devCalendar-Bridging-Header.h"; sourceTree = "<group>"; };
+		D027E5D1C7FFA02FB6DDE850 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D043FEDE7467A43111DA9268 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F69E9DB1D6CC04D158FB8CE9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D495AECA0177A89CC2750CC /* libPods.a in Frameworks */,
+				6615C35B3A6DAF548D209985 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 		9EF6FDF3A78E8D620FD31683 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00463C362CE1DEA94A06BCA5 /* libPods.a */,
+				D027E5D1C7FFA02FB6DDE850 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
