@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D495AECA0177A89CC2750CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00463C362CE1DEA94A06BCA5 /* libPods.a */; };
 		38630C8B1B41C462002BDB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38630C8A1B41C462002BDB52 /* AppDelegate.swift */; };
 		38630C8D1B41C462002BDB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38630C8C1B41C462002BDB52 /* ViewController.swift */; };
 		38630C901B41C462002BDB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38630C8E1B41C462002BDB52 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00463C362CE1DEA94A06BCA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		38630C851B41C462002BDB52 /* devCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38630C891B41C462002BDB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38630C8A1B41C462002BDB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		38630C9A1B41C463002BDB52 /* devCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38630C9F1B41C463002BDB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38630CA01B41C463002BDB52 /* devCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devCalendarTests.swift; sourceTree = "<group>"; };
+		D043FEDE7467A43111DA9268 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F69E9DB1D6CC04D158FB8CE9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D495AECA0177A89CC2750CC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 				38630C871B41C462002BDB52 /* devCalendar */,
 				38630C9D1B41C463002BDB52 /* devCalendarTests */,
 				38630C861B41C462002BDB52 /* Products */,
+				D7AB25EDC604D1D923244876 /* Pods */,
+				9EF6FDF3A78E8D620FD31683 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +119,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9EF6FDF3A78E8D620FD31683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00463C362CE1DEA94A06BCA5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7AB25EDC604D1D923244876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F69E9DB1D6CC04D158FB8CE9 /* Pods.debug.xcconfig */,
+				D043FEDE7467A43111DA9268 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38630CA41B41C463002BDB52 /* Build configuration list for PBXNativeTarget "devCalendar" */;
 			buildPhases = (
+				5F9EA30B41EF85915C45CFED /* Check Pods Manifest.lock */,
 				38630C811B41C462002BDB52 /* Sources */,
 				38630C821B41C462002BDB52 /* Frameworks */,
 				38630C831B41C462002BDB52 /* Resources */,
+				205C698A47E210B32762F0EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +232,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		205C698A47E210B32762F0EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9EA30B41EF85915C45CFED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38630C811B41C462002BDB52 /* Sources */ = {
@@ -340,6 +399,7 @@
 		};
 		38630CA51B41C463002BDB52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69E9DB1D6CC04D158FB8CE9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = devCalendar/Info.plist;
@@ -350,6 +410,7 @@
 		};
 		38630CA61B41C463002BDB52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D043FEDE7467A43111DA9268 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = devCalendar/Info.plist;
@@ -411,6 +472,7 @@
 				38630CA61B41C463002BDB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38630CA71B41C463002BDB52 /* Build configuration list for PBXNativeTarget "devCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +481,7 @@
 				38630CA91B41C463002BDB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
