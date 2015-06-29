@@ -38,6 +38,7 @@
 		38630C9A1B41C463002BDB52 /* devCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38630C9F1B41C463002BDB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38630CA01B41C463002BDB52 /* devCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devCalendarTests.swift; sourceTree = "<group>"; };
+		38903F2A1B41D42200D303CD /* devCalendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "devCalendar-Bridging-Header.h"; sourceTree = "<group>"; };
 		D043FEDE7467A43111DA9268 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F69E9DB1D6CC04D158FB8CE9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +91,7 @@
 				38630C911B41C462002BDB52 /* Images.xcassets */,
 				38630C931B41C462002BDB52 /* LaunchScreen.xib */,
 				38630C881B41C462002BDB52 /* Supporting Files */,
+				38903F2A1B41D42200D303CD /* devCalendar-Bridging-Header.h */,
 			);
 			path = devCalendar;
 			sourceTree = "<group>";
@@ -182,6 +184,7 @@
 		38630C7D1B41C462002BDB52 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Jonathan Grant";
 				TargetAttributes = {
@@ -402,9 +405,12 @@
 			baseConfigurationReference = F69E9DB1D6CC04D158FB8CE9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = devCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "devCalendar/devCalendar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,9 +419,11 @@
 			baseConfigurationReference = D043FEDE7467A43111DA9268 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = devCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "devCalendar/devCalendar-Bridging-Header.h";
 			};
 			name = Release;
 		};
